@@ -11,7 +11,7 @@
 
   - name: install openjdk
     yum:
-     name: java-1.8.0-openjdk
+     name: java-11-openjdk
      state: present
     
   - name: download jenkins.repo
